@@ -43,6 +43,7 @@
     "markdown-it-shiki": "^0.5.1",
     "pnpm": "^7.12.2",
     "shiki": "^0.11.1",
+    "stylus": "^0.59.0",
     "taze": "^0.8.2",
     "typescript": "^4.8.4",
     "unocss": "^0.45.26",
