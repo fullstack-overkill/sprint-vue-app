@@ -1,5 +1,5 @@
 <template>
-  <BaseNav />
+  <TheNav />
   <main class="topadsasd">
     <RouterView />
   </main>

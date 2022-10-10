@@ -2,8 +2,8 @@
   <nav class="header">
     <BaseUser />
     <div>
-      <BaseNavMenu />
-      <BaseNavNotifications />
+      <TheNavMenu />
+      <TheNavNotifications />
     </div>
   </nav>
 </template>
