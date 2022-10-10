@@ -7,8 +7,14 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    BaseNav: typeof import('./components/BaseNav/index.vue')['default']
+    BaseNavMenu: typeof import('./components/BaseNavMenu/index.vue')['default']
+    BaseNavNotifications: typeof import('./components/BaseNavNotifications/index.vue')['default']
+    BaseUser: typeof import('./components/BaseUser/index.vue')['default']
+    copy: typeof import('./components/BaseNavNotifications copy/index.vue')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    Gg: typeof import('./components/gg/gg.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
