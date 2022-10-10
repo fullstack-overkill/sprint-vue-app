@@ -1,17 +1,31 @@
 <template>
-  <div>
+  <div class="page">
     <div>
-      <span>
-        <h1>Projects</h1>
-        <span>See All -></span>
+      <span class="group-header">
+        <h1 class="title">Projects</h1>
+        <span>See All</span>
       </span>
       <div>
-        Projects List
+        <BaseScrollGroup>
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+          <BaseProject />
+        </BaseScrollGroup>
       </div>
     </div>
     <div>
       <span>
-        <h1>Tasks</h1>
+        <h1 class="title">Tasks</h1>
       </span>
       <div>
         Tasks List
@@ -19,3 +33,7 @@
     </div>
   </div>
 </template>
+
+<style lang="stylus" scoped>
+@import 'styles.styl';
+</style>
